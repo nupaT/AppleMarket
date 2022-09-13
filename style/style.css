@@ -9,8 +9,7 @@
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :focus,
@@ -89,3 +88,35 @@ h6 {
 }
 
 /*-----------*/
+body {
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  background-color: gray;
+}
+
+.logo__box {
+  display: flex;
+  align-items: center;
+}
+
+.img__logo {
+  margin-right: 10px;
+}
+
+.nav__item {
+  margin-right: 84px;
+}
+.nav__item .nav__item:last-child {
+  margin-right: 0px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}

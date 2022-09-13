@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  background-color: gray;
+}
+
+.logo__box {
+  display: flex;
+  align-items: center;
+}
+
+.img__logo {
+  margin-right: 10px;
+}
+
+.title__logo {
+}
+
+.header__nav {
+}
+
+.nav__item {
+  margin-right: 84px;
+  .nav__item:last-child {
+    margin-right: 0px;
+  }
+}
