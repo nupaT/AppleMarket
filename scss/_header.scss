@@ -1,9 +1,9 @@
 .header {
   display: flex;
-  margin: 0 auto;
+  margin: 24px auto;
+  height: 34px;
   align-items: center;
   justify-content: space-between;
-  background-color: gray;
 }
 
 .logo__box {
@@ -23,6 +23,8 @@
 
 .nav__item {
   margin-right: 84px;
+  color: $color-black;
+  @extend %nav__item;
   .nav__item:last-child {
     margin-right: 0px;
   }
