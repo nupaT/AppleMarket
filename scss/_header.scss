@@ -33,5 +33,5 @@
 
 .nav__item {
   color: $color-black;
-  @extend %nav__item;
+  @extend %font__normal;
 }

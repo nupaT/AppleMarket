@@ -1,0 +1,54 @@
+.banner {
+  width: 100%;
+  background-image: url("../img/banner.png");
+  background-size: 100%;
+}
+
+.banner__img {
+  // background-image: url("../img/banner.png");
+  // background-size: 100%;
+  // height: 610px;
+}
+
+.banner__content {
+  margin: 120px 0 160px;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner__title {
+  margin: 0 0 8px 0;
+  color: $color-black;
+  @extend %font__normal;
+}
+
+.banner__discount {
+  margin: 0 0 40px 0;
+  @extend %font__semibold;
+}
+
+.banner__timer {
+  ul {
+    display: flex;
+  }
+}
+
+.cards__left {
+}
+.count__left {
+  font-family: "SF UI Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  background-color: #a3b6c7;
+}
+.count__describe {
+}
+.count__hours {
+}
+.count__minutes {
+}

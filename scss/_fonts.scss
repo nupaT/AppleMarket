@@ -38,9 +38,16 @@
   font-style: normal;
 }
 
-%nav__item {
+%font__normal {
   font-family: "SF UI Display";
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+}
+
+%font__semibold {
+  font-family: "SF UI Display";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
 }

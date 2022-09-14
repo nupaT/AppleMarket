@@ -116,11 +116,18 @@ h6 {
   font-weight: 300;
   font-style: normal;
 }
-.nav__item {
+.banner__title, .nav__item {
   font-family: "SF UI Display";
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+}
+
+.banner__discount {
+  font-family: "SF UI Display";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
 }
 
 body {
@@ -160,6 +167,45 @@ body {
 
 .nav__item {
   color: #000000;
+}
+
+.banner {
+  width: 100%;
+  background-image: url("../img/banner.png");
+  background-size: 100%;
+}
+
+.banner__content {
+  margin: 120px 0 160px;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner__title {
+  margin: 0 0 8px 0;
+  color: #000000;
+}
+
+.banner__discount {
+  margin: 0 0 40px 0;
+}
+
+.banner__timer ul {
+  display: flex;
+}
+
+.count__left {
+  font-family: "SF UI Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+  background-color: #a3b6c7;
 }
 
 .container {
