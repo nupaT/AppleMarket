@@ -90,35 +90,34 @@ h6 {
 /*-----------*/
 @font-face {
   font-family: "SF UI Display";
-  src: url("../fonts/ UI Display Thin.eot");
-  src: local("☺"), url("../fonts/ UI Display Thin.woff") format("woff"), url("../fonts/ UI Display Thin.ttf") format("truetype"), url("../fonts/ UI Display Thin.svg") format("svg");
+  src: url("../fonts/SF UI Display Thin.eot");
+  src: local("☺"), url("../fonts/SF UI Display Thin.woff") format("woff"), url("../fonts/SF UI Display Thin.ttf") format("truetype"), url("../fonts/SF UI Display Thin.svg") format("svg");
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
   font-family: "SF UI Display";
-  src: url("../fonts/ UI Display Semibold.eot");
-  src: local("☺"), url("../fonts/ UI Display Semibold.woff") format("woff"), url("../fonts/ UI Display Semibold.ttf") format("truetype"), url("../fonts/ UI Display Semibold.svg") format("svg");
+  src: url("../fonts/SF UI Display Semibold.eot");
+  src: local("☺"), url("../fonts/SF UI Display Semibold.woff") format("woff"), url("../fonts/SF UI Display Semibold.ttf") format("truetype"), url("../fonts/SF UI Display Semibold.svg") format("svg");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "SF UI Display";
-  src: url("../fonts/ UI Display Regular.eot");
-  src: local("☺"), url("../fonts/ UI Display Regular.woff") format("woff"), url("../fonts/ UI Display Regular.ttf") format("truetype"), url("../fonts/ UI Display Regular.svg") format("svg");
+  src: url("../fonts/SF UI Display Regular.eot");
+  src: local("☺"), url("../fonts/SF UI Display Regular.woff") format("woff"), url("../fonts/SF UI Display Regular.ttf") format("truetype"), url("../fonts/SF UI Display Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: "Conv_SF UI Display";
-  src: url("../fonts/ UI Display Light.eot");
-  src: local("☺"), url("../fonts/ UI Display Light.woff") format("woff"), url("../fonts/ UI Display Light.ttf") format("truetype"), url("../fonts/ UI Display Light.svg") format("svg");
+  font-family: "SF UI Display";
+  src: url("../fonts/SF UI Display Light.eot");
+  src: local("☺"), url("../fonts/SF UI Display Light.woff") format("woff"), url("../fonts/SF UI Display Light.ttf") format("truetype"), url("../fonts/SF UI Display Light.svg") format("svg");
   font-weight: 300;
   font-style: normal;
 }
 .nav__item {
   font-family: "SF UI Display";
-  font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -145,12 +144,22 @@ body {
   margin-right: 10px;
 }
 
-.nav__item {
-  margin-right: 84px;
-  color: #000000;
+.title__logo {
+  padding-top: 8px;
 }
-.nav__item .nav__item:last-child {
+
+.header__nav ul {
+  display: flex;
+}
+.header__nav ul li {
+  margin-right: 84px;
+}
+.header__nav ul li:last-child {
   margin-right: 0px;
+}
+
+.nav__item {
+  color: #000000;
 }
 
 .container {
