@@ -130,13 +130,21 @@ h6 {
   line-height: 48px;
 }
 
+.count__describe {
+  font-family: "SF UI Display";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+
 body {
   margin: 0 auto;
 }
 
 .header {
   display: flex;
-  margin: 24px auto;
+  margin: 24px 0;
   height: 34px;
   align-items: center;
   justify-content: space-between;
@@ -170,9 +178,10 @@ body {
 }
 
 .banner {
-  width: 100%;
   background-image: url("../img/banner.png");
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
 }
 
 .banner__content {
@@ -183,6 +192,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .banner__title {
@@ -194,11 +204,32 @@ body {
   margin: 0 0 40px 0;
 }
 
+.banner__timer {
+  margin: 0px 0px 56px 0px;
+}
 .banner__timer ul {
   display: flex;
 }
+.banner__timer ul li {
+  margin: 0px 8px 0px 0px;
+}
+.banner__timer ul li:last-child {
+  margin: 0;
+}
+
+.cards__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .count__left {
+  width: 120px;
+  height: 70px;
+  margin: 0 0 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "SF UI Display";
   font-style: normal;
   font-weight: 600;
@@ -206,6 +237,23 @@ body {
   line-height: 48px;
   color: #ffffff;
   background-color: #a3b6c7;
+  border-radius: 6px;
+}
+
+.count__describe {
+  color: #000000;
+}
+
+.button_chouse {
+  width: 197px;
+  height: 52px;
+  border: 2px #70a5d4 solid;
+  border-radius: 32px;
+  font-family: "SF UI Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
 }
 
 .container {
