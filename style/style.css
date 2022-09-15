@@ -178,9 +178,10 @@ body {
 }
 
 .banner {
+  margin: 0px 0px 140px 0px;
   background-image: url("../img/banner.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   display: flex;
 }
 
