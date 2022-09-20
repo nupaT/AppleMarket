@@ -14,7 +14,10 @@
   margin: 0px 0px 52px 0px;
 }
 
+// !!!подумать оставлять ли нет, т.к. ширина видимой части определена в блоке conatainer
 .products__cards {
+  width: 1170px;
+  overflow: hidden;
 }
 
 .products__list {
