@@ -116,7 +116,8 @@ h6 {
   font-weight: 300;
   font-style: normal;
 }
-.banner__title, .nav__item {
+.banner__title, .nav__item,
+.country__btn {
   font-family: "SF UI Display";
   font-weight: 400;
   font-size: 20px;
@@ -163,17 +164,18 @@ body {
   padding-top: 8px;
 }
 
+.header__nav {
+  display: flex;
+}
 .header__nav ul {
   display: flex;
 }
 .header__nav ul li {
   margin-right: 84px;
 }
-.header__nav ul li:last-child {
-  margin-right: 0px;
-}
 
-.nav__item {
+.nav__item,
+.country__btn {
   color: #000000;
 }
 
@@ -182,6 +184,7 @@ body {
   background-image: url("../img/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 100wh;
   display: flex;
 }
 

@@ -20,18 +20,17 @@
 }
 
 .header__nav {
+  display: flex;
   ul {
     display: flex;
     li {
       margin-right: 84px;
     }
-    li:last-child {
-      margin-right: 0px;
-    }
   }
 }
 
-.nav__item {
+.nav__item,
+.country__btn {
   color: $color-black;
   @extend %font__normal;
 }
