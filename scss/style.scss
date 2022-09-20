@@ -6,8 +6,10 @@ $color-black: #000000;
 @import "_main";
 @import "_header";
 @import "_banner";
+@import "_products";
 
 .container {
   max-width: 1170px;
   margin: 0 auto;
+  overflow: hidden;
 }
