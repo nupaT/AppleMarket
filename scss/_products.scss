@@ -1,4 +1,5 @@
 .products {
+  margin: 0px 0px 140px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,13 +12,34 @@
 
 .products__all {
   @extend %font__semibold;
-  margin: 0px 0px 52px 0px;
+  margin: 0px 0px 40px 0px;
 }
 
 // !!!подумать оставлять ли нет, т.к. ширина видимой части определена в блоке conatainer
 .products__cards {
   width: 1170px;
   overflow: hidden;
+  padding: 12px 6px 4px;
+}
+
+.array__block {
+  margin: 152px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.array__left,
+.array__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  border: 1px solid #7883e6;
+  border-radius: 50%;
+  color: #7883e5;
+  font-size: ;
 }
 
 .products__list {
@@ -43,7 +65,7 @@
 
 .product__desc {
   display: flex;
-  margin: 0px 0px 24px 0px;
+  margin: 0px 0px 26px 0px;
   justify-content: space-between;
   @extend %font__normal;
   font-size: 24px;
@@ -51,4 +73,11 @@
 }
 
 .product__name {
+}
+
+.product__more-info {
+  @extend %font__normal;
+  font-size: 16px;
+  line-height: 100%;
+  color: #2238ff;
 }

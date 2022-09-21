@@ -116,7 +116,7 @@ h6 {
   font-weight: 300;
   font-style: normal;
 }
-.product__desc, .products__motivate, .banner__title, .nav__item,
+.product__more-info, .product__desc, .products__motivate, .banner__title, .nav__item,
 .country__btn {
   font-family: "SF UI Display";
   font-weight: 400;
@@ -184,6 +184,7 @@ body {
   background-image: url("../img/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 1440px;
   display: flex;
 }
 
@@ -263,6 +264,7 @@ body {
 }
 
 .products {
+  margin: 0px 0px 140px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -273,12 +275,25 @@ body {
 }
 
 .products__all {
-  margin: 0px 0px 52px 0px;
+  margin: 0px 0px 40px 0px;
 }
 
 .products__cards {
   width: 1170px;
   overflow: hidden;
+  padding: 12px 6px 4px;
+}
+
+.array__left,
+.array__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  border: 1px solid #7883e6;
+  border-radius: 50%;
+  color: #7883e5;
 }
 
 .products__list {
@@ -301,10 +316,16 @@ body {
 
 .product__desc {
   display: flex;
-  margin: 0px 0px 24px 0px;
+  margin: 0px 0px 26px 0px;
   justify-content: space-between;
   font-size: 24px;
   line-height: 29px;
+}
+
+.product__more-info {
+  font-size: 16px;
+  line-height: 100%;
+  color: #2238ff;
 }
 
 .container {
