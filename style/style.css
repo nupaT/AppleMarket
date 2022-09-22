@@ -284,6 +284,16 @@ body {
   padding: 12px 6px 4px;
 }
 
+.array__block {
+  margin: 0px 24px;
+  max-width: 1170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 140px;
+}
+
 .array__left,
 .array__right {
   display: flex;
@@ -294,6 +304,11 @@ body {
   border: 1px solid #7883e6;
   border-radius: 50%;
   color: #7883e5;
+  font-size: 30px;
+}
+
+.array__right {
+  transform: rotate(180deg);
 }
 
 .products__list {
