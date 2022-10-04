@@ -1,0 +1,55 @@
+.characters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.characters__motivate {
+  margin: 0px 0px 8px 0px;
+  @extend %font__normal;
+  text-align: center;
+}
+.characters__title {
+  margin: 0px 0px 56px 0px;
+  @extend %font__semibold;
+  text-align: center;
+}
+
+.characters__block {
+  // margin: 0px 305px;
+  display: flex;
+  align-items: center;
+  // justify-content: space-between;
+}
+
+.characters__img {
+  margin: 0px 138px 0px 0px;
+}
+
+.characters__desc {
+}
+
+.characters__list {
+}
+
+.characters__item {
+  margin: 0px 0px 29px 0px;
+  display: flex;
+  justify-content: space-between;
+  :last-child {
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+.characters__name {
+  margin: 0px 36px 0px 0px;
+  font-family: "SF UI Display";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.characters__value {
+  @extend %font__normal;
+  justify-content: left;
+}
