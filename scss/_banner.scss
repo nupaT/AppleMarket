@@ -5,17 +5,19 @@
   background-image: url("../img/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 1440px;
+  // max-width: 100%; //1440px;
+  // width: 144px;
   display: flex;
 }
 
 .banner__content {
-  margin: 120px 0 160px;
-  max-width: fit-content;
+  margin: 120px 0px 110px 135px;
   display: flex;
+  max-width: fit-content;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  // justify-content: left;
 }
 
 .banner__title {
