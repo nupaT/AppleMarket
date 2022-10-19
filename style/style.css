@@ -184,11 +184,12 @@ body {
   background-image: url("../img/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 100%;
   display: flex;
 }
 
 .banner__content {
-  margin: 120px 0px 110px 135px;
+  margin: 120px 0px 160px 0px;
   display: flex;
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
@@ -196,6 +197,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
+  transform: translateX(-100px);
 }
 
 .banner__title {
@@ -263,7 +266,6 @@ body {
 }
 
 .products__content {
-  margin: 0px 0px 140px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
